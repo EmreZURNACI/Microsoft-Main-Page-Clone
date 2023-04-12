@@ -1,0 +1,215 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4?styles=18006,18004');
+
+html {
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1600px !important;
+}
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box !important;
+}
+
+li {
+    display: inline-block;
+    padding: 0.2rem 1.4rem;
+}
+
+.btn-primary {
+    background-color: #0067b8 !important;
+}
+
+.text-primary {
+    color: #0067b8 !important;
+}
+
+.navigationBar li a:hover {
+    border-bottom: 2px solid black !important;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.text-secondary {
+    color: #262626 !important;
+}
+
+.text-link {
+    color: #616161;
+}
+
+.navigationBar {
+    height: 5vh;
+}
+
+.navigationBar img:hover {
+    cursor: pointer;
+}
+
+.navigationBar img:first-child {
+    width: 108px;
+}
+
+.navigationBar img:last-child {
+    width: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: static;
+    width: 6%;
+}
+
+.carousel-control-prev :is(:hover, :active) {
+    animation: goLeft .3s linear alternate forwards;
+}
+
+.h-6 {
+    height: 6vh;
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+
+#items a,
+#items p {
+    font-size: 1.1rem !important;
+}
+
+.links a {
+    font-size: 0.85rem !important;
+}
+
+#Workitems a,
+#Workitems p {
+    font-size: 1.1rem !important;
+}
+
+.fontArial {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+}
+
+#Workitems li:hover,
+#items li:hover {
+    cursor: pointer;
+}
+
+.carousel-indicators {
+    z-index: -100;
+    cursor: auto;
+}
+
+.start-25 {
+    left: 15%;
+}
+
+.fa-chevron-right:hover {
+    animation: goRight .3s linear alternate forwards;
+}
+
+
+.springSale {
+    background-color: #9bf00b;
+    display: inline-block !important;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-darker {
+    color: #000;
+}
+
+.w-10 {
+    width: 15%;
+}
+
+.w-23 {
+    width: 23%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.top-35 {
+    top: 35%;
+}
+
+.left-10 {
+    left: 10%;
+}
+
+.right-25 {
+    right: 25%;
+}
+
+.top-40 {
+    top: 40%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-clip: border-box;
+    border-radius: 50%;
+    width: 15px;
+    height: 1px !important;
+    background-color: black;
+}
+
+#goPcGames:hover {
+    text-decoration: underline !important;
+    text-decoration-color: white;
+}
+
+a.btn.text-primary:hover .fa-chevron-right {
+    animation: goRight .3s linear alternate forwards;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.bg-transparent:hover i.fa-chevron-right {
+    animation: goRight .3s linear alternate forwards;
+}
+
+.w-55 {
+    width: 55% !important;
+}
+
+.links a:hover {
+    text-decoration: underline !important;
+    color: #616161;
+}
+
+.left-43 {
+    left: 43%;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
+
+@keyframes goLeft {
+    to {
+        transform: translateX(-5px);
+    }
+}
+
+@keyframes goRight {
+    to {
+        transform: translateX(5px);
+    }
+}
